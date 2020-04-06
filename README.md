@@ -1,7 +1,11 @@
+
 ![](https://github.com/ImperialCollegeLondon/covid19model/workflows/CI/badge.svg)
 
 # covid19model
+
 Code for modelling estimated deaths and cases for COVID19 from Report 13 published by MRC Centre for Global Infectious Disease Analysis, Imperial College London: [Estimating the number of infections and the impact of nonpharmaceutical interventions on COVID-19 in 11 European countries](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-13-europe-npi-impact/) 
+
+## Date Monday, April 6
 
 This repository has code for replication purposes. The bleeding edge code and advancements are done in a private repository. Ask report authors for any collaborations. 
 
@@ -46,5 +50,3 @@ There are two ways to run our code:-
 * Figures have the images with daily cases, daily death and Rt for all countries.
 
 ## Please note to not make you wait for long we have by default run sampling for short period. To be comparable with report please uncomment the line 212 and comment out line 213. This will run sampling for 4000 iterations with 2000 warmups and 4 chains.
-
-Monday: April 6
